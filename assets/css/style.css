@@ -84,7 +84,7 @@ main {
 
 /* Hero section styling */
 .hero {
-    background-image: url('/assets/images/VidContent/dripping.gif');
+    background-image: url('../images/VidContent/dripping.gif');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
