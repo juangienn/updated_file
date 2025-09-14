@@ -84,7 +84,7 @@ main {
 
 /* Hero section styling */
 .hero {
-    background-image: url('../images/cover.jpg');
+    background-image: url('/assets/images/dripping.gif');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1008,10 +1008,67 @@ input[type="radio"] {
         margin: auto;
     } 
 
+.grid-container {
+    align-items: center;
+}
 
+.table-design {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1.5rem black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
 
+.table-design th {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.table-design td {
+    border: 1px solid #000000;
+    text-align: left;
+}
 
+.table-design tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
+.tbol {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+}
+
+.tbol td, th {
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.tbol tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.tble {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+}
+
+.tble td, th {
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.tble td, p {
+    text-align: justify;
+}
+
+.tble tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
     
